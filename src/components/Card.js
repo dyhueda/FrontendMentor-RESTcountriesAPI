@@ -8,14 +8,14 @@ export default function Card({ country }){
   const population = new Intl.NumberFormat("de-DE").format(country.population)
     return(
         <button 
-/*           onClick={()=>{router.push(`/${country.name.common}`)}} */
+          onClick={()=>{router.push(`/${country.name.common}`)}}
           className="bg-white dark:bg-darkblueelements pb-2 rounded-lg flex flex-col">
           <Image
           className=" rounded-t-lg"
           src={country.flags.svg}
           width={240}
           height={90}
-          alt={country.name.common}
+          alt={country.flags.alt}
           />
           <div className="p-4 flex flex-col items-start">
 
