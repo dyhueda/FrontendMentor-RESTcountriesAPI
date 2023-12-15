@@ -38,7 +38,7 @@ export default function ToggleTheme() {
       ) : (
         <Image src="/icons/MoonIcon.svg" height={24} width={24} alt="moon icon" />
       )}
-      <h1 className="font-bold">Dark Mode</h1>
+      <h1 className="font-bold sm:text-lg">Dark Mode</h1>
     </button>
   );
 }

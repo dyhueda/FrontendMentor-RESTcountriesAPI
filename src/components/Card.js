@@ -9,12 +9,12 @@ export default function Card({ country }){
     return(
         <button 
           onClick={()=>{router.push(`/${country.name.common}`)}}
-          className="bg-white dark:bg-darkblueelements pb-2 rounded-lg flex flex-col">
+          className="bg-white sm:w-full dark:bg-darkblueelements pb-2 rounded-lg flex flex-col shadow">
           <Image
           className=" rounded-t-lg"
           src={country.flags.svg}
-          width={240}
-          height={90}
+          width={2400}
+          height={900}
           alt={country.flags.alt}
           />
           <div className="p-4 flex flex-col items-start">

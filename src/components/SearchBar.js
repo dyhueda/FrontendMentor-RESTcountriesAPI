@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SearchBar(props){
     return(
-        <div className="p-2 gap-2 text-xs w-full text-darkgray my-7 flex bg-white dark:bg-darkblueelements" >
+        <div className="p-2 gap-2 text-xs w-full sm:w-1/3 text-darkgray my-7 flex bg-white dark:bg-darkblueelements" >
           <Image
           src="/icons/SearchIcon.svg"
           width={15}

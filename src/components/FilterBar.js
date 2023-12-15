@@ -17,7 +17,7 @@ export default function FilterBar(props) {
   const regions = [ "All","Africa", "America", "Asia", "Europe", "Oceania"];
 
   return (
-    <div className="flex flex-col relative my-4 dark:bg-darkblueelements bg-white px-4 py-4 w-1/2 rounded-lg shadow text-sm gap-4">
+    <div className="flex flex-col relative my-4 sm:w-2/12 sm:items-center sm:h-fit dark:bg-darkblueelements bg-white px-4 py-4 w-1/2 rounded-lg shadow text-sm gap-4">
       <button
         onClick={handleIsOpen}
         className="flex justify-between w-full items-center "

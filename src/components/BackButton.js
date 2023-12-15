@@ -11,9 +11,9 @@ export default function BackButton() {
         onClick={(e) => {
           router.push("/");
         }}
-        className="flex gap-2 bg-white dark:bg-darkblueelements shadow-xl px-5 py-1 my-5 dark:text-white"
+        className="flex gap-2 bg-white dark:bg-darkblueelements shadow-xl px-5 py-1 my-5 sm:my-16 dark:text-white rounded"
       >
-        <div className="w-6 dark:text-white">
+        <div className="w-6 sm:w-10 dark:text-white">
           <ArrowBackIcon />
         </div>
         Back

@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`bg-lightbg text-darkblue dark:text-white  dark:bg-darkbg w-screen h-screen ${Nunito.className}`}>
+      <body className={`bg-lightbg text-darkblue dark:text-white sm:text-lg dark:bg-darkbg max-w-screen h-screen ${Nunito.className}`}>
         <Header/>
         {children}
         </body>
